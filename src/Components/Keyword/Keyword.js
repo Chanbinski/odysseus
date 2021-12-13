@@ -25,12 +25,6 @@ const Keyword = (props) => {
         }
     }
 
-    const deleteWord = (word) => {
-        var words = JSON.parse(localStorage.getItem('words'));
-        words.splice(words.indexOf(word), 1);
-        localStorage.setItem('words', JSON.stringify(words));
-    }
-
     const updateRelatedWords = (data) => {
 
         const relatedWord = data[0], relationship = data[1];
@@ -57,7 +51,6 @@ const Keyword = (props) => {
         setRelatedWords(relatedWords)
         setRelationships(relationships)
 
-        deleteWord(deletedWord)
         localStorage.setItem('relatedWords', JSON.stringify(relatedWords));
         localStorage.setItem('relationships', JSON.stringify(relationships));
     }

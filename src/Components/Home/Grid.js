@@ -20,6 +20,7 @@ const Grid = (props) => {
 
         var relatedWords = JSON.parse(localStorage.getItem('relatedWords')) || [];
         var relationships = JSON.parse(localStorage.getItem('relationships')) || [];
+        var explanations = JSON.parse(localStorage.getItem('explanations')) || [];
 
         var deletedConnections = relatedWords[deletedWord] || [];
         for (var relatedWord of deletedConnections) {
@@ -30,8 +31,10 @@ const Grid = (props) => {
             delete relationships[order(deletedWord, relatedWord)]
         }
         delete relatedWords[deletedWord]
+        delete explanations[deletedWord]
         localStorage.setItem('relatedWords', JSON.stringify(relatedWords));
         localStorage.setItem('relationships', JSON.stringify(relationships));
+        localStorage.setItem('explanations', JSON.stringify(explanations));
     }
 
     return (

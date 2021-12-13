@@ -8,7 +8,7 @@ function About() {
             <div className="sub-header"></div>
             <div className="explanation">
 
-                Odysseus is a tool that help users connect different concepts and generate ideas. <br></br><br></br>
+                Odysseus is a tool that helps users connect different concepts and generate ideas. <br></br><br></br>
 
                 It was created as a final project for "Introduction to Ancient Greece" or AGRS 10A in UC Berkeley, a class that focuses on reading against the grain, or interpreting text in an unconventional way. <br></br><br></br>
 
