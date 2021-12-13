@@ -1,0 +1,63 @@
+.keyword-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+/* Add Form */
+.add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.add-form input {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+input[name="relationship"] {
+    width: 300px;
+}
+
+.relatedWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.relatedWords-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 600px;
+}
+
+
+.relationship {
+    display: none;
+    position: absolute;
+    font-size: 1vw;
+    z-index: 100;
+    top: 13px;
+    left: 380px;
+}
+
+.wordd:hover + .relationship {
+    display: block;
+}
