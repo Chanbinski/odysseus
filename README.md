@@ -1,4 +1,4 @@
-#Odysseus
+# Odysseus
 
 Odysseus is a tool that helps users connect different concepts and generate ideas.
 
