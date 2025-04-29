@@ -1,6 +1,6 @@
 # Odysseus
 
-Odysseus is a tool that helps users connect different concepts and generate ideas.
+[Odysseus](https://odysseus-tau.vercel.app/) is a tool that helps users connect different concepts and generate ideas.
 
 It was created as a final project for "Introduction to Ancient Greece" or AGRS 10A in UC Berkeley, a class that focuses on reading against the grain, or interpreting text in an unconventional way.
 
